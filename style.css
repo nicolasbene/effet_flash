@@ -1,0 +1,54 @@
+body {
+  background: #ffffff;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+}
+
+.image{
+  display: none;
+}
+
+.texte {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: none;
+  max-width: 50%;
+  text-align : left;
+
+  font-family: Poppins, sans-serif;
+  font-size: 55px;  
+  /* 2.5rem; */
+  color: #176699;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+/* @media only screen and (max-width: 1500px) {
+  .texte {
+  font-size: 2em;
+  }
+  }
+
+@media only screen and (max-width: 1300px) {
+  .texte {
+  font-size: 1.2em;
+  }
+  }
+
+@media only screen and (max-width: 1000px) {
+  .texte {
+  font-size: 1em;
+  }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .texte {
+    font-size: 0.7em;
+    }
+    } */
